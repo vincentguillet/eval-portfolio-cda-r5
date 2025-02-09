@@ -201,3 +201,16 @@ footer {
     padding: 2rem;
     background: rgba(0, 0, 0, 0.2);
 }
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .realisations-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1;
+        max-width: 350px;
+    }
+}
