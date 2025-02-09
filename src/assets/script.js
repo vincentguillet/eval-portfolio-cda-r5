@@ -6,6 +6,15 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
     this.reset();
 });
 
+// Gestion des boutons "En savoir plus"
+document.querySelectorAll('.btn-more').forEach(btn => {
+    btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        alert(`Pas encore de contenu supplémentaire à afficher. Revenez bientôt !`);
+        this.reset();
+    });
+});
+
 // Animation des cartes au scroll
 const cards = document.querySelectorAll('.card');
 const observer = new IntersectionObserver((entries) => {
