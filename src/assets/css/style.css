@@ -222,4 +222,8 @@ footer {
         flex: 1;
         max-width: 350px;
     }
+
+    .card:nth-child(3) .btn-more {
+        margin-top: 2.5rem;
+    }
 }
