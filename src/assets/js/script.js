@@ -7,7 +7,7 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
 });
 
 // Gestion des boutons "En savoir plus"
-document.querySelectorAll('.btn-more').forEach(btn => {
+document.querySelectorAll('.btn-more-empty').forEach(btn => {
     btn.addEventListener('click', function (e) {
         e.preventDefault();
         alert(`Pas encore de contenu supplémentaire à afficher. Revenez bientôt !`);
